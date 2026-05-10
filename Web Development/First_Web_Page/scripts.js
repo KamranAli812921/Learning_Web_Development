@@ -1,1 +1,0 @@
-alert("Wellcome to my first web page")
