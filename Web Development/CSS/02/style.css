@@ -1,11 +1,7 @@
-header, footer
-{
-    background-color: brown;
-    color: yellow;
-
-  
+.red{
+    background-color: yellow;
+    color: red;
 }
-main{
-    background-color: blue;
-    color:  white;
+#Pink{
+    background-color: pink;
 }
