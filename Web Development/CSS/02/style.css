@@ -5,3 +5,6 @@
 #Pink{
     background-color: pink;
 }
+ul > li {
+    color: aqua;
+}
