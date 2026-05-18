@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.div{
+    background-color: yellow;
+}
+.div1
+{
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid black;
+}
+.div2{
+    padding: 10px;
+    height: 200px;
+    width: 250px;
+    margin: 30px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
