@@ -5,6 +5,7 @@ P{
 div :first-child{
     background-color: yellow;
     color: red;
+    
 }
 .red{
     background-color: red;
@@ -18,5 +19,7 @@ div :first-child{
 }
 .red{
     background-color: green;
-
+    width: 50vw;
+    height: 20vh;
+    margin: auto;
 }
