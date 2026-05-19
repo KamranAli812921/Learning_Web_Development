@@ -16,6 +16,7 @@ div :first-child{
 }
 .blue{
     color: blue;
+    text-shadow: 5px 5px 5px yellow;
 }
 .red{
     background-color: green;
