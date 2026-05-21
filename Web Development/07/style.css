@@ -1,20 +1,32 @@
+:root{
+    --font:green;
+    --background:pink;
+}
 nav ul li {
     list-style: none;
-    background-color: yellow;
+
+    background-color: var(--background);
+    color: var(--font);
     padding: 30px;
     width: 80vw;
 
 }
 nav ul{
     display:  flex;
+     background-color: var(--background);
+    color: var(--font);
 }
 footer ul {
     list-style: none;
-    background-color: gray;
+   
     display: flex;
+     background-color: var(--background);
+    color: var(--font);
 }
 footer ul li{
     padding: 30px;
     width: 80vw;
     display: inline;
+     background-color: var(--background);
+    color: var(--font);
 }
