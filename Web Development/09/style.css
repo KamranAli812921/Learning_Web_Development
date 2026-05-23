@@ -4,7 +4,44 @@
 }
 nav ul li{
     list-style: none;
+    padding-right: 90px;
+    margin: 5px;
 }
 nav ul {
+    background-color: pink;
     display: flex;
+    padding: 10px;
+}
+.boxes{
+    background-color: green;
+    width: 80vw;
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 40px;
+    position: fixed ;
+    border-radius: 1000px;
+    right: 10px;
+    bottom: 5px;
+}
+.navbar{
+    position: sticky;
+    top:0px;
+}
+.box{
+    border: 2px solid black;
+    width: 40vw;
+    height: 80vh;
+    margin: 5px;
+}
+.bar{
+    border: 2px solid black;
+    width: 80vw;
+    height: 50px;
+    font-size: 20px;
+    font-display: center;
+    margin: auto;
 }
