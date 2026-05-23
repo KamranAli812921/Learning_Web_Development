@@ -12,6 +12,9 @@ nav{
     top: 0;
     z-index: 100;
 }
+body {
+    min-height: 200vh;
+}
 nav ul {
     background-color: pink;
     display: flex;
@@ -57,6 +60,7 @@ img{
     justify-content: center;
     align-items: center;
     margin: auto;
+    display: flex;
     /* padding: 5px; */
     border-radius: 20px;
 }
