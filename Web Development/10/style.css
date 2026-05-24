@@ -1,0 +1,10 @@
+.container{
+    border: 2px solid black;
+}
+.item{
+    border: 2px solid green;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 10px
+}
