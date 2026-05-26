@@ -19,6 +19,8 @@
 
 .item3 {
     grid-area: footer;
+
+    transform: rotateX(10deg) skew(10deg) translate(10deg); 
     /* grid-column: ; */
 }
 
