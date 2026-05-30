@@ -29,3 +29,18 @@ nav p {
 nav ul li img {
     height: 5vh;
 }
+.container{
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: gainsboro;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    
+}
