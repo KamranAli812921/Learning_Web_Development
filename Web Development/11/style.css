@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    border: 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+nav img {
+    height: 10vh;
+
+}
+
+nav p {
+    display: inline;
+}
+
+nav ul li img {
+    height: 5vh;
+}
