@@ -16,9 +16,11 @@ if(true){
     Num3=5;
     console.log(Num3);
 }
+console.log("Its object which looks like dictionery in the python");
 let obj={
     "Name":"Kamran Ali",
     "Father Name":"Muhammad Ali",
     "Age":21
 }
 console.log(obj);
+console.log(typeof obj);
