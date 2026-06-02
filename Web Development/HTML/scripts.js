@@ -8,3 +8,11 @@ if(true){
     num3=5;
     console.log(num3);
 }
+let Num1=6;
+let Num2=5;
+let Num3=Num1+Num2;
+console.log(Num1+"+"+Num2+"="+Num3);
+if(true){
+    Num3=5;
+    console.log(Num3);
+}
