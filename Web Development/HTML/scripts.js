@@ -16,3 +16,9 @@ if(true){
     Num3=5;
     console.log(Num3);
 }
+let obj={
+    "Name":"Kamran Ali",
+    "Father Name":"Muhammad Ali",
+    "Age":21
+}
+console.log(obj);
