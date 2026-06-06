@@ -4,3 +4,5 @@ arr[0]="Kamran"
 console.log(arr)
 let arr2=[1,"Array",2.3,true]
 console.log(arr2)
+console.log(arr.length)
+console.log(arr2.length)
