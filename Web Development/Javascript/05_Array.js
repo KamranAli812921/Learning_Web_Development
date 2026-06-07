@@ -14,3 +14,7 @@ arr.push(123)
 console.log(arr)
 arr.push("Arshad")
 console.log(arr)
+for (let index=0;index<arr.length;index++)
+{
+    console.log(arr[index])
+}
