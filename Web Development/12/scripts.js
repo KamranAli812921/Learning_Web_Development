@@ -18,3 +18,5 @@ else
 {
     alert("Wrong oprator selected")
 }
+document.querySelector(".box").style.backgroundColor = "blue";
+document.querySelector(".box").style.color = "white";
