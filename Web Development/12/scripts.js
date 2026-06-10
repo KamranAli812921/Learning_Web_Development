@@ -1,25 +1,27 @@
-let num1 = Number(prompt("Enter first number:"))
-let oprator = prompt("Enter oprator:")
-let num2 = Number(prompt("Enter first number:"))
+// let num1 = Number(prompt("Enter first number:"))
+// let oprator = prompt("Enter oprator:")
+// let num2 = Number(prompt("Enter first number:"))
 
-if (oprator == "-") {
-    alert(`${num1} ${oprator} ${num2}=${num1 - num2}`)
-}
-else if (oprator == "*") {
-    alert(`${num1} ${oprator} ${num2}=${num1 * num2}`)
-}
-else if (oprator == "/") {
-    alert(`${num1} ${oprator} ${num2}=${num1 / num2}`)
-}
-else if (oprator == "+") {
-    alert(`${num1} ${oprator} ${num2}=${num1 + num2}`)
-}
-else
-{
-    alert("Wrong oprator selected")
-}
+// if (oprator == "-") {
+//     alert(`${num1} ${oprator} ${num2}=${num1 - num2}`)
+// }
+// else if (oprator == "*") {
+//     alert(`${num1} ${oprator} ${num2}=${num1 * num2}`)
+// }
+// else if (oprator == "/") {
+//     alert(`${num1} ${oprator} ${num2}=${num1 / num2}`)
+// }
+// else if (oprator == "+") {
+//     alert(`${num1} ${oprator} ${num2}=${num1 + num2}`)
+// }
+// else
+// {
+//     alert("Wrong oprator selected")
+// }
 document.title="Caculator"
 console.log(document.title)
 console.log(document.body)
-document.querySelector(".box").style.backgroundColor = "blue";
-document.querySelector(".box").style.color = "white";
+console.log(document.body.childNodes)
+console.log(document.body.childNodes[1])
+document.body.childNodes[1].style.backgroundColor="red"
+document.body.childNodes[1].style.backgroundColor="green"
