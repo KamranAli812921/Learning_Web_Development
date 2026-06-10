@@ -18,5 +18,6 @@ else
 {
     alert("Wrong oprator selected")
 }
+document.title="Caculator"
 document.querySelector(".box").style.backgroundColor = "blue";
 document.querySelector(".box").style.color = "white";
