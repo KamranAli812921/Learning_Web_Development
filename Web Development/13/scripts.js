@@ -5,3 +5,5 @@ a[2].style.backgroundColor="red"
 a[0].style.backgroundColor="black"
 a[0].style.color="white"
 a[1].style.backgroundColor="green"
+
+document.getElementById("gray").style.backgroundColor="gray"
