@@ -28,3 +28,4 @@ document.body.childNodes[2].childNodes[2].style.backgroundColor="green"
 let a=document.body.childNodes[1]
 console.log(a.childNodes)
 a.childNodes[1].style.backgroundColor="green"
+console.log(document.body.firstElementChild.children)
