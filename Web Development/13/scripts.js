@@ -7,3 +7,4 @@ a[0].style.color="white"
 a[1].style.backgroundColor="green"
 
 document.getElementById("gray").style.backgroundColor="gray"
+console.log(document.querySelector(".box").innerHTML)
