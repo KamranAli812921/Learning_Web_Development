@@ -8,3 +8,4 @@ a[1].style.backgroundColor="green"
 
 document.getElementById("gray").style.backgroundColor="gray"
 console.log(document.querySelector(".box").innerHTML)
+console.log(document.querySelector(".container").innerHTML)
