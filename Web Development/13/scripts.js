@@ -20,3 +20,7 @@ let but1=document.querySelector(".box")
 but1.addEventListener("click",()=>{
     alert("Hello world")
 })
+let but2=document.querySelector(".box")
+but1.addEventListener("click",()=>{
+    document.querySelector(".box").innerHTML="I am changed."
+})
