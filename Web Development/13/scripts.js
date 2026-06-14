@@ -16,3 +16,7 @@ let but=document.querySelector(".container")
 but.addEventListener("click",()=>{
     alert("Hello world")
 })
+let but1=document.querySelector(".box")
+but1.addEventListener("click",()=>{
+    alert("Hello world")
+})
