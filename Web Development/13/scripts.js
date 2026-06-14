@@ -12,3 +12,7 @@ console.log(document.querySelector(".container").innerHTML)
 console.log(document.querySelector(".container").outerHTML)
 console.log(document.querySelector(".container").tagName)
 document.querySelector(".box").innerHTML="I am Kamran"
+let but=document.querySelector(".container")
+but.addEventListener("click",()=>{
+    alert("Hello world")
+})
