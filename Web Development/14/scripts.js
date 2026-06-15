@@ -14,3 +14,4 @@ async function main() {
     console.log(data)
     console.log("Process Data")
 }
+main()
