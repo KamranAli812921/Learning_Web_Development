@@ -6,9 +6,11 @@ function getData() {
         }, 3000);
     })
 }
-console.log("loading module")
-console.log("Do something else")
-console.log("Load data")
-let data = getData()
-console.log(data)
-console.log("Process Data")
+async function main() {
+    console.log("loading module")
+    console.log("Do something else")
+    console.log("Load data")
+    let data = await getData()
+    console.log(data)
+    console.log("Process Data")
+}
