@@ -15,6 +15,11 @@ async function main() {
     console.log("Process Data")
 }
 main()
+Y=0
+if (Y==0)
+{
+    throw "Error aayi gayo"
+}
 
 try {
     console.log(2*y)
