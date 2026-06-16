@@ -18,7 +18,7 @@ main()
 Y=0
 if (Y==0)
 {
-    throw "Error aayi gayo"
+    throw SyntaxError("Error aayi gayo") 
 }
 
 try {
