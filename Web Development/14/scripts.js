@@ -15,3 +15,11 @@ async function main() {
     console.log("Process Data")
 }
 main()
+
+try {
+    console.log(2*y)
+}
+catch(error)
+{
+    console.log(error)
+}
