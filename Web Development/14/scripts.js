@@ -28,3 +28,7 @@ catch(error)
 {
     console.log(error)
 }
+finally
+{
+    console.log("I am in a finnaly block")
+}
