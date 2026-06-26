@@ -9,4 +9,5 @@ app.get('/contact/:slug', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
+  console.log(`It my first web page using backend`);
 });
