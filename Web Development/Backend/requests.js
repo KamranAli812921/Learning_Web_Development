@@ -3,8 +3,8 @@ const app = express();
 const port = 3000;
 app.use(express.static('public'))
 
-app.get('/hello/:slug', (req, res) => {
-  res.send(`<h1>Hello Kamran Ali!    ${req.params.slug}</h1>`);
+app.get('/', (req, res) => {
+  res.send(`<h1>Hello Kamran Ali Roonjha!</h1>`);
 });
 
 app.listen(port, () => {

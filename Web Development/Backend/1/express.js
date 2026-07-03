@@ -9,3 +9,12 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
+
+app.use((req,res,next)=>{
+    console.log("M1")
+    next()
+})
+app.use((req,res,next)=>{
+    console.log("M2")
+    next()
+})
